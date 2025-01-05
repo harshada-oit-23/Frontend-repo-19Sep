@@ -1,0 +1,60 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccaadd;
+}
+.container
+{
+    background-color: aliceblue;
+    box-shadow: 1px 2px 3px lightblue;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.stopwatch{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 600;
+    gap:5px;
+    text-shadow: 1px 1px 2px gray;
+    align-items: center;
+
+}
+.btn-box{
+   
+    display: flex;
+    justify-content: space-between;
+   gap: 5px;
+}
+.btn{
+    background-color: black;
+    color: blanchedalmond;
+    padding: 3px 5px;
+    width: 70px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px gray;
+   
+}
+.btn:active{
+    background-color: aqua;
+    color: black;
+}
